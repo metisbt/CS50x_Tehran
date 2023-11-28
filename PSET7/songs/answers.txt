@@ -1,0 +1,3 @@
+1: By using the music listening history of each user (which includes the average of danceability and valence and duration_ms of every music he listened to) and averaging the value of danceability and valence and duration_ms of every music, which was closer to the average of this history.
+
+2: In my opinion, averaging of danceability and valence and duration_ms is not enough. I think we should in order to find this audio aura, we should add a field in our database for the number of repetitions of each song for a person and a field for that person's favorite music. Then, by using another database that is linked to songs.db, we can determine the audio aura for each person by averaging the two fields that I mentioned with the field of similar genres.

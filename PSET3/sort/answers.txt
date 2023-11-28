@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sotr
+
+How do you know?: I tested this program on all three reversed files, and the time taken to reach the result was longer than the rest of the programs. For reversed5000.txt was:0.070s and for reversed10000.txt was:0.235s and for reversed50000.txt was: 5.304s .
+
+sort2 uses: Merge Sort
+
+How do you know?: The result of this program on reversed files was -> reversed5000.txt: 0.039s and reversed10000.txt: 0.039s and reversed50000.txt: 1.132s .Comparing the sorting speed of sort2 with sort1 (just for one of theme like reversed50000.txt), it can be seen that this program has worked much faster.
+
+sort3 uses: Selection Sort
+
+How do you know?: The results of sort3 in terms of time, according to the forecast, should show a number between the numbers of the sort1 and sort2, and the results are as follows.reversed5000.txt: 0.060s and reversed10000.txt: 0.159s and reversed50000.txt: 3.029s. If we only compare the time spent for the reversed50000.txt for sort1 and sort2 and sort3, according to our knowledge about the sorting time of each Sorting methods, we can get the result that I have written for you in this file.

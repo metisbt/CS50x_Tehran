@@ -1,0 +1,174 @@
+/* nav */
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2e2e2e;
+}
+
+.nav-pills .nav-link {
+    color: #fff;
+}
+
+.nav a:hover {
+    color: #fdb400 !important;
+}
+
+
+
+/* home page */
+.home-s1 {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.home-s1-p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.title-home-s2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.home-s2 {
+    height: 500px;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    padding: 0 200px;
+    background-color: #fff;
+}
+
+.h-s2-p {
+    font-weight: 200;
+    font-size: 18px;
+    padding-bottom: 2rem;
+}
+
+.b1 {
+    background-color: #fdb400;
+    border: unset;
+}
+
+.b1:hover {
+    background-color: #2e2e2e;
+    border: unset;
+}
+
+.b1 a {
+    color: #ffffff;
+    text-decoration: unset;
+}
+
+.b1 a:hover {
+    color: #ffffff;
+    text-decoration: unset;
+}
+
+.b2 {
+    background-color: #fff;
+    border: 1px solid #2e2e2e;
+}
+
+.b2:hover {
+    background-color: #2e2e2e;
+    border: 1px solid #2e2e2e;
+    color: #fff;
+}
+
+.b2 a {
+    color: #2e2e2e;
+    text-decoration: unset;
+}
+
+.b2 a:hover {
+    color: #ffffff;
+    text-decoration: unset;
+}
+
+/* about */
+.about {
+    height: 700px;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    padding: 0 100px;
+    background-color: #f7f7f7;
+}
+
+/* contact */
+.c-s {
+    padding-bottom: 0 !important;
+}
+
+.t-c {
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.fa {
+    padding: 15px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    display: inline-table !important;
+    background: #fdb400 !important;
+    font-size: 20px !important;
+    border-radius: 15px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: #2e2e2e !important;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-twitter {
+    background: #125688;
+    color: white;
+}
+
+.fa-telegram {
+    background: #125688;
+    color: white;
+}
+
+.fa-whatsapp {
+    background: #125688;
+    color: white;
+}
+
+.form_area {
+    padding: 0 250px !important;
+    margin-bottom: 150px;
+}
+
+.c-b {
+        background-color: #fdb400;
+        margin-top: 15px;
+        color: #fff;
+        border: 1px solid #fdb400;
+}
+
+.c-b:hover {
+    background-color: #fff;
+    margin-top: 15px;
+    color: #fdb400;
+    border: 1px solid #fdb400;
+}
+
+/* project */
+.t-p {
+    text-align: center;
+}
